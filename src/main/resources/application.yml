@@ -12,7 +12,8 @@ spring:
           uri: https://github.com/vitrais/Server_Config.git
           clone-on-start: true
           search-paths:
-            - "{application}"  # ищет в папках user-service/, notification-service/ и т.д.
+            - "{application}"
+          default-label: Future
 
 management:
   endpoints:
